@@ -78,3 +78,14 @@ https://groups.google.com/forum/#!msg/druid-user/ega9lPdHNH8/AtmHeo2kCAAJ
 
 ![image](https://user-images.githubusercontent.com/4033129/44767901-8c2ef100-ab9a-11e8-894a-06b09237fe36.png)
 
+## Zookeeper Tree
+
+zkCli $> ls /druid/indexer<br/>
+zkCli $> ls /druid/indexer/task<br/>
+zkCli $> ls /druid/indexer/status/${hostname}:${MiddleManager Port}<br/>
+zkCli $> get /druid/indexer/leaderLatchPath/${hash number}<br/>
+zkCli $> get /druid/announcements<br/>
+zkCli $> ls /druid/servedSegments<br/>
+zkCli $> ls /druid/coordinator<br/>
+zkCli $> ls /druid/segment<br/>
+zkCli $> ls /druid/loadQueue<br/>
