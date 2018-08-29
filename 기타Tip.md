@@ -13,4 +13,9 @@ configuration에서,로그를 보고 싶어서 log4j를 추가할때 broker, coo
     .
     .
     
-(* 주의 : druid.segmentCache.locations 에 있는 디렉토리들은 직접 만들어놔야 한다.
+(* 주의 : druid.segmentCache.locations 에 있는 디렉토리들은 직접 만들어놔야 한다.)
+
+## MiddleManager work.capacity 계산 방법
+
+![image](https://user-images.githubusercontent.com/4033129/44766980-e3cb5d80-ab96-11e8-8aa2-362f09093c3c.png)
+
