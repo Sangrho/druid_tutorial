@@ -60,3 +60,21 @@ Overlord 에 아래와 같은 쿼리를 보내는 방식을 사용한다.<br/>
 
 2.DB 에서 아래와 같이 확인할 수 있다.<br/>
 ![image](https://user-images.githubusercontent.com/4033129/44767586-6ce39400-ab99-11e8-9735-0d86a6136623.png)<br/><br/>
+
+## Value Null 처리
+들어오는 데이터가 10개고,<br/>
+Tranquility Spec 에 dimenstion, metric등으로 지정을 해줬어도<br/>
+해당 값이 null이면 아예 데이터가 들어오지 않게 된다.<br/>
+가령<br/>
+        {<br/>
+          “Data” : Null<br/>
+        }<br/>
+이런식으로 안들어온단 소리이다.<br/>
+또한,Null값이 들어오더라도 지정을 해주고 싶어도 현재 지원 안 한다.<br/>
+아래 링크에서 확인할 수 있다.<br/>
+https://groups.google.com/forum/#!msg/druid-user/ega9lPdHNH8/AtmHeo2kCAAJ
+
+## Count 중복에 대해 알아야 할 부분
+
+![image](https://user-images.githubusercontent.com/4033129/44767901-8c2ef100-ab9a-11e8-894a-06b09237fe36.png)
+
